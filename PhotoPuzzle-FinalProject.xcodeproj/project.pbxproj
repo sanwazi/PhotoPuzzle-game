@@ -14,6 +14,10 @@
 		F62746B81A12844B00868F15 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F62746B71A12844B00868F15 /* Images.xcassets */; };
 		F62746BB1A12844B00868F15 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F62746B91A12844B00868F15 /* LaunchScreen.xib */; };
 		F62746C71A12844C00868F15 /* PhotoPuzzle_FinalProjectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F62746C61A12844C00868F15 /* PhotoPuzzle_FinalProjectTests.m */; };
+		F66593B61A2E7E65000481EB /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F66593B51A2E7E65000481EB /* SecondViewController.m */; };
+		F66593B91A2E80C9000481EB /* TileBoardView.m in Sources */ = {isa = PBXBuildFile; fileRef = F66593B81A2E80C9000481EB /* TileBoardView.m */; };
+		F66593BC1A2E822F000481EB /* TileBoard.m in Sources */ = {isa = PBXBuildFile; fileRef = F66593BB1A2E822F000481EB /* TileBoard.m */; };
+		F66593BF1A2E84EE000481EB /* UIImage+Resize.m in Sources */ = {isa = PBXBuildFile; fileRef = F66593BE1A2E84EE000481EB /* UIImage+Resize.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +44,14 @@
 		F62746C01A12844C00868F15 /* PhotoPuzzle-FinalProjectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "PhotoPuzzle-FinalProjectTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F62746C51A12844C00868F15 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F62746C61A12844C00868F15 /* PhotoPuzzle_FinalProjectTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PhotoPuzzle_FinalProjectTests.m; sourceTree = "<group>"; };
+		F66593B41A2E7E65000481EB /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		F66593B51A2E7E65000481EB /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		F66593B71A2E80C9000481EB /* TileBoardView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TileBoardView.h; sourceTree = "<group>"; };
+		F66593B81A2E80C9000481EB /* TileBoardView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TileBoardView.m; sourceTree = "<group>"; };
+		F66593BA1A2E822F000481EB /* TileBoard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TileBoard.h; sourceTree = "<group>"; };
+		F66593BB1A2E822F000481EB /* TileBoard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TileBoard.m; sourceTree = "<group>"; };
+		F66593BD1A2E84B6000481EB /* UIImage+Resize.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImage+Resize.h"; sourceTree = "<group>"; };
+		F66593BE1A2E84EE000481EB /* UIImage+Resize.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Resize.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +101,14 @@
 				F62746B71A12844B00868F15 /* Images.xcassets */,
 				F62746B91A12844B00868F15 /* LaunchScreen.xib */,
 				F62746AA1A12844B00868F15 /* Supporting Files */,
+				F66593B41A2E7E65000481EB /* SecondViewController.h */,
+				F66593B51A2E7E65000481EB /* SecondViewController.m */,
+				F66593B71A2E80C9000481EB /* TileBoardView.h */,
+				F66593B81A2E80C9000481EB /* TileBoardView.m */,
+				F66593BA1A2E822F000481EB /* TileBoard.h */,
+				F66593BB1A2E822F000481EB /* TileBoard.m */,
+				F66593BD1A2E84B6000481EB /* UIImage+Resize.h */,
+				F66593BE1A2E84EE000481EB /* UIImage+Resize.m */,
 			);
 			path = "PhotoPuzzle-FinalProject";
 			sourceTree = "<group>";
@@ -168,6 +188,7 @@
 				TargetAttributes = {
 					F62746A61A12844B00868F15 = {
 						CreatedOnToolsVersion = 6.1;
+						DevelopmentTeam = RFRULZKY52;
 					};
 					F62746BF1A12844C00868F15 = {
 						CreatedOnToolsVersion = 6.1;
@@ -219,9 +240,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F66593B61A2E7E65000481EB /* SecondViewController.m in Sources */,
 				F62746B31A12844B00868F15 /* ViewController.m in Sources */,
+				F66593B91A2E80C9000481EB /* TileBoardView.m in Sources */,
 				F62746B01A12844B00868F15 /* AppDelegate.m in Sources */,
+				F66593BC1A2E822F000481EB /* TileBoard.m in Sources */,
 				F62746AD1A12844B00868F15 /* main.m in Sources */,
+				F66593BF1A2E84EE000481EB /* UIImage+Resize.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -414,6 +439,7 @@
 				F62746CC1A12844C00868F15 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F62746CD1A12844C00868F15 /* Build configuration list for PBXNativeTarget "PhotoPuzzle-FinalProjectTests" */ = {
 			isa = XCConfigurationList;
@@ -422,6 +448,7 @@
 				F62746CF1A12844C00868F15 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
